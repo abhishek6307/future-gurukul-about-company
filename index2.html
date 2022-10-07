@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+/* Slideshow container */
+.sl-shcont {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.myslds {
+  display: none;
+}
+
+/* nxtbtn & prvsbtnious buttons */
+.prvsbtn, .nxtbtn {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: rgb(27, 6, 6);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "nxtbtn button" to the right */
+.nxtbtn {
+  left: 50px;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prvsbtn:hover, .nxtbtn:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.txts {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numtxts {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.activess, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fadess {
+  animation-name: fadess;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadess {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+</style>
+</head>
+<body>
+<!-- Slideshow container -->
+<div class="sl-shcont">
+
+    <!-- Full-width images with number and caption txts -->
+    <div class="myslds fadess">
+      <div class="numtxts">1 / 3</div>
+      <img src="download.jfif" style="width:100%">
+      <div class="txts">Caption Text</div>
+    </div>
+  
+    <div class="myslds fadess">
+      <div class="numtxts">2 / 3</div>
+      <img src="download.jfif" style="width:100%">
+      <div class="txts">Caption Two</div>
+    </div>
+  
+    <div class="myslds fadess">
+      <div class="numtxts">3 / 3</div>
+      <img src="download.jfif" style="width:100%">
+      <div class="txts">Caption Three</div>
+    </div>
+  
+    <!-- prvsbtn and prvsbtnious buttons -->
+   
+  </div>
+  <a class="prvsbtn" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="nxtbtn" onclick="plusSlides(1)">&#10095;</a>
+  <br>
+  
+  <!-- The dots/circles -->
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+// nxtbtn/prvsbtnious controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("myslds");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" activess", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " activess";
+}
+</script>
+
+</body>
+</html> 

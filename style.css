@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+.row{
+    text-align: justify;
+}
+.breadcrumb-nav{
+    margin-bottom: 2rem;
+}
+.primary-heading{
+    color: #1f1463;
+    font-size: 3.5rem;
+    font-weight: 700;
+}
+
+.primary-para{
+    color: #302572;
+    font-size:2.2rem;
+    font-weight:500;
+}
+
+
+.home-list{
+    font-size: 1.6rem;
+    color: #302572;
+    font-weight: 400;
+    /* padding-left: 1.2rem; */
+}
+
+#below-home{
+    background-color: rgb(207, 100, 118);
+    height: 250px;
+}
+.below-home-row{
+    height: 257px;
+}
+.breadcrumb {
+	background-color: #1f1463;
+}
+.btn-download{
+	padding: 14px 30px;
+    background-color: darkblue;
+    color: #fffcfc;
+    border-radius: 28px;
+    border: 1px solid darkblue;
+    font-size: 1.8rem;
+}
+.btn-know-more, .btn-know-more:hover, .btn-know-more:active{
+	border: 2px solid;
+    padding: 6px 16px;
+    background-color: rgb(207 100 118);
+    color: white;
+    border-radius: 28px;
+    font-size: 1.8rem;
+}
+.btn-download:hover{
+	border: 1px solid darkblue;
+    /* padding: 10px 42px; */
+    background: rgb(26, 26, 202);
+    color: white;
+}
+
+.prev-next:active{
+	border: 1px solid darkblue;
+    /* padding: 10px 42px; */
+    background: rgb(26, 26, 202) !important;
+    color: white;
+}
+.secondary-heading{
+    color: #221864;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.tertiary-heading{
+    color: #1f1463;
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+.horizontal-line{
+    height: 279px;
+    border-left: 3px solid rgb(190, 125, 125);
+    margin: 28px 0px 0px 8rem;
+}
+.secondary-para{
+    color: #302572;
+    font-size:1.6rem;
+    font-weight:400;
+}
+
+.data-value{
+    color: rgb(212, 99, 118);
+    font-weight: 600;
+    font-size: 2.5rem;
+}
+.pink-color{
+	color: rgb(212, 99, 118);
+    font-weight: 600;
+    /* font-size: 2.5rem; */
+	font-style: normal;
+}
+.data-name{
+    color: #1f1463;
+    font-weight: 600;
+    font-size: 2rem;
+}
+/* slider  */
+
+@media (min-width: 768px){
+.col-md-1 {
+    flex: 0 0 auto;
+    width: 5.333333%;
+}
+}
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1230px;
+}
+}
+
+
+/* testimonial  */
+
+#testimonial_area {
+	padding: 10% 0;
+}
+.box-area {
+	padding:0 0 20px 0px;
+	position: relative;
+	display: block;
+	background: #222fff;
+	color: #000;
+	width: 300px;
+	text-align: justify;
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: 40px 0;
+}
+.box-area h5 {
+	font-size: 16px;
+	font-weight: 700;
+	color: #0a69ed;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.box-area span {
+	color: #262626;
+	display: block;
+	font-size: 13px;
+	margin: 0 0 10px;
+	font-weight: 400;
+}
+.box-area .content {
+	color: #262626;
+}
+.box-area .img-area {
+	width: 90px;
+	height: 90px;
+	/* position: absolute;
+	top: -40px;
+	left: 0;
+	bottom: 0;
+	margin: 0 auto;
+	right: 0;
+	z-index: 1; */
+	border: 5px solid #fff;
+	/* border-radius: 50%; */
+	box-shadow: 0 5px 4px rgba(0, 0, 0, 0.5);
+}
+.box-area .img-area img {
+	width: 100%;
+	height: auto;
+	border-radius: 50%;
+}
+.socials {
+	margin-top: 30px;
+}
+.socials i {
+	margin: 0 10px;
+	color: #0a69ed;
+	font-size: 18px;
+}
+#testimonial_area .owl-nav {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+}
+#testimonial_area .owl-prev, #testimonial_area .owl-next {
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	color: #0a69ed;
+	border-radius: 50%;
+	text-align: center;
+	background: #fff;
+	position: absolute;
+}
+#testimonial_area .owl-prev {
+	left: -60px;
+	top: -30px;
+}
+#testimonial_area .owl-next {
+	right: -60px;
+	top: -30px;
+}
+.card-body{
+	padding: 25px;font-size: 2rem;
+}
+.card-body a{
+	font-size: 2rem;
+}
+@media only screen and (max-width: 991px) {
+	.owl-nav {
+		display: block;
+	}
+}
+@media only screen and (max-width: 767px) {
+	.box-area {
+		text-align: center;
+	}
+	.owl-nav {
+		display: none;
+	}
+}
+
+
+
+/* slideshow  */
+
+
+.sl-shcont {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .myslds {
+	display: none;
+  }
+  
+  /* nxtbtn & prvsbtnious buttons */
+  .prvsbtn, .nxtbtn {
+	cursor: pointer;
+	/* position: absolute; */
+	/* top: 50%; */
+	/* width: auto; */
+	/* margin-top: -22px; */
+	padding: 16px;
+	color: rgb(27, 6, 6);
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+  }
+  
+  /* Position the "nxtbtn button" to the right */
+  .nxtbtn {
+	left: 50px;
+	border-radius: 3px 0 0 3px;
+  }
+  
+
+  /* On hover, add a black background color with a little bit see-through */
+  .prvsbtn:hover, .nxtbtn:hover {
+	/* background-color: rgba(0,0,0,0.8); */
+  }
+  .prev-next{
+	position: relative;
+	bottom: 55px;
+	left: 97px;
+	border: 1px solid black;
+  }
+  .image-and-text{
+	margin-left: 12rem;
+  }
+  /* Caption text */
+  .txts {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: relative;
+	bottom: 8px;
+	color: #000;
+	width: 100%;
+	text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numtxts {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+
+  
+  .activess, .dot:hover {
+	background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fadess {
+	animation-name: fadess;
+	animation-duration: 1.5s;
+  }
+  
+  @keyframes fadess {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  .card-body{
+	background-color: #222fff;
+ }
+
+  #about-company-home{
+	background-color: #1f1463;
+	color: white;
+  }
+  @media only screen and (max-width: 991px) {
+	.video-row{
+			flex-direction: column-reverse;
+	}
+	.data-value{
+		font-size: 1.4rem;
+	}
+	.data-name{
+		font-size: 1.4rem;
+	}
+	.primary-heading{
+		font-size: 3rem;
+	}
+	.secondary-heading{
+		font-size: 2.2rem;
+	}
+	.tertiary-heading{
+		font-size: 1.7rem;
+	}
+	.primary-para{
+		font-size: 1.8rem;
+	}
+	.secondary-para{
+		font-size: 1.4rem;
+	}
+	.home-list{
+		font-size: 1.3rem;
+	}
+}
+  @media only screen and (max-width: 767px) {
+	.horizontal-line{
+			display: none;
+	}
+	.testmonial_slider_area{
+		display: none !important;
+	}
+	#myCarousel{
+		display: block !important;
+	}
+	.vdo-btns{
+		display: none;
+	}
+	.view-all{
+		display: block !important;
+		width: 37%;
+		margin: 0 auto;
+	}
+	.data{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.prev-next {
+		position: relative;
+		bottom: 0;
+		left: -123px;
+	}
+	.owl-item{
+	width: 450px !important;
+	margin-right: 60px !important;
+	}
+	.card{
+		width: 51rem;
+	}
+	.primary-heading{
+		font-size: 2.5rem;
+	}
+	.secondary-heading{
+		font-size: 1.8rem;
+	}
+	.tertiary-heading{
+		font-size: 1.4rem;
+	}
+	.primary-para{
+		font-size: 1.4rem;
+	}
+	.secondary-para{
+		font-size: 1.2rem;
+	}
+	.home-list{
+		font-size: 1.1rem;
+	}
+	.data-value{
+		font-size: 1.8rem;
+	}
+	.data-name{
+		font-size: 1.8rem;
+	}
+  }
+  @media only screen and (max-width: 578px) {
+	.card{
+		width: 100%;
+	}
+	.carousel {
+	
+		width: 78% !important;
+		margin: 0 auto !important;
+	}
+}
