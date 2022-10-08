@@ -79,11 +79,11 @@ hr{
 .btn-know-more:hover,
 .btn-know-more:active {
 	border: 2px solid;
-	padding: 6px 16px;
+	padding: 6px 13px;
 	background-color: rgb(207 100 118);
 	color: white;
 	border-radius: 28px;
-	font-size: 1.8rem;
+	font-size: 1.2rem;
 }
 
 .btn-download:hover {
@@ -175,7 +175,7 @@ hr{
 	padding: 0 0 20px 0px;
 	position: relative;
 	display: block;
-	background: #222fff;
+	background: #1f1463;
 	color: #000;
 	width: 300px;
 	text-align: justify;
@@ -270,7 +270,7 @@ hr{
 }
 
 .card-body a {
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 991px) {
@@ -392,7 +392,9 @@ hr{
 }
 
 .card-body {
-	background-color: #222fff;
+	background-color: #1f1463;
+	color: white;
+	text-align: center;
 }
 
 #about-company-home {
