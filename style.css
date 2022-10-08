@@ -12,6 +12,14 @@
 		border: 1px solid black;
 	}
 }
+@media only screen and (max-width: 1200px) {
+	.prev-next {
+		position: relative !important;
+		bottom: 0px !important;
+		left: -126px !important;
+		border: 1px solid black;
+	}
+}
 
 .data-row-sm {
 	display: none !important;
@@ -119,11 +127,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 .prev-next:active {
 	border: 1px solid darkblue;
 	/* padding: 10px 42px; */
-	background: rgb(26, 26, 202) !important;
+	background: rgb(175, 157, 160) !important;
 	color: white;
-	background: #0f0c29;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -159,6 +165,12 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 .pink-color {
 	color: rgb(212, 99, 118);
+	font-weight: 600;
+	/* font-size: 2.5rem; */
+	font-style: normal;
+}
+.silver-color{
+	color: rgb(175, 157, 160);
 	font-weight: 600;
 	/* font-size: 2.5rem; */
 	font-style: normal;
@@ -411,24 +423,7 @@ background: linear-gradient(to right, #24243e, #302b63, #594ad9); /* W3C, IE 10+
 	/* background-color: rgba(0,0,0,0.8); */
 }
 
-.prev-next {
-	position: relative;
-	bottom: 55px;
-	left: 97px;
 
-	background-color: #dfdbdb;
-	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
-}
-.prev-next:hover,.prev-next:focus , .prev-next:focus-visible, .prev-next:active{
-
-	/* background-color: #dfdbdb !important; */
-	border: 1px solid darkblue;
-	background: #594ad9 !important;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #594ad9) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #594ad9) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-}
 
 .image-and-text {
 	margin-left: 12rem;
@@ -533,6 +528,12 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 	.owl-next {
 		right: -40px !important;
 	}
+	.prev-next {
+	
+		bottom: 57px !important;
+		left: 97px !important;
+		
+	}
 
 }
 
@@ -571,7 +572,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 	.prvsbtn {
 		position: absolute;
-		top: 148px;
+		top: 136px;
 		left: -22px;
 
 		font-size: 24px;
@@ -582,7 +583,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 	.nxtbtn {
 		position: absolute;
 		position: absolute;
-		top: 145px;
+		top: 136px;
 
 		border-radius: 32%;
 		width: 49px;
@@ -725,4 +726,23 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 	.col-sm-6 {
 		width: 39% !important;
 	}
+}
+.prev-next {
+    position: relative;
+    bottom: 55px;
+    left: 97px;
+    padding: 14px 17px;
+    /* left: -83px !important; */
+    background-color: rgb(175, 157, 160) !important;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+    border-radius: 32px;
+
+}
+.prev-next:hover,.prev-next:focus , .prev-next:focus-visible, .prev-next:active{
+
+	background-color: rgb(175, 157, 160) !important;
+	border: 1px solid darkblue;
+
+
+
 }
