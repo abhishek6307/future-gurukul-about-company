@@ -327,6 +327,30 @@ hr {
 	border-radius: 16px;
 	height: 268px;
 }
+@media (max-width: 568px) {
+	.sl-shcont{
+		max-width: 379px;
+	}
+	.myslds video {
+		height: 200px;
+	}
+}
+@media (max-width: 428px) {
+	.sl-shcont{
+		max-width: 319px;
+	}
+	.myslds video {
+		height: 166px;
+	}
+}
+@media (max-width: 332px) {
+	.sl-shcont{
+		max-width: 266px;
+	}
+	.myslds video {
+		height: 138px;
+	}
+}
 
 /* nxtbtn & prvsbtnious buttons */
 .prvsbtn,
