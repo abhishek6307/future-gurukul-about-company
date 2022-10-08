@@ -7,22 +7,25 @@
 @media only screen and (min-width: 1200px) {
 	.prev-next {
 		position: relative !important;
-		bottom: -1px !important;
+		bottom: 0px !important;
 		left: -126px !important;
 		border: 1px solid black;
 	}
 }
-.data-row-sm{
+
+.data-row-sm {
 	display: none !important;
 }
-.btns-main-sm-size{
+
+.btns-main-sm-size {
 	display: none !important;
 }
-hr{
+
+hr {
 	border: 0;
-    margin: 0 auto;
-    width: 45%;
-    border-top: 2px solid #541313;
+	margin: 0 auto;
+	width: 45%;
+	border-top: 2px solid #541313;
 }
 
 .row {
@@ -71,8 +74,12 @@ hr{
 	background-color: darkblue;
 	color: #fffcfc;
 	border-radius: 28px;
-	border: 1px solid darkblue;
 	font-size: 1.8rem;
+}
+.btn-download:hover, .btn-download:active, .btn-download:focus, .btn-download:focus-visible {
+	background-color: darkblue !important;
+	color: white !important;
+
 }
 
 .btn-know-more,
@@ -181,6 +188,7 @@ hr{
 	text-align: justify;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: 40px 0;
+	border-radius: 9px;
 }
 
 .box-area h5 {
@@ -267,6 +275,9 @@ hr{
 .card-body {
 	padding: 25px;
 	font-size: 2rem;
+	background-color: #1f1463;
+	color: white;
+	text-align: center;
 }
 
 .card-body a {
@@ -298,6 +309,13 @@ hr{
 	max-width: 500px;
 	position: relative;
 	margin: auto;
+	border-radius: 16px;
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+	padding: 12px;
+	margin-bottom: 36px;
 }
 
 /* Hide the images by default */
@@ -305,14 +323,15 @@ hr{
 	display: none;
 }
 
+.myslds video {
+	border-radius: 16px;
+	height: 268px;
+}
+
 /* nxtbtn & prvsbtnious buttons */
 .prvsbtn,
 .nxtbtn {
 	cursor: pointer;
-	/* position: absolute; */
-	/* top: 50%; */
-	/* width: auto; */
-	/* margin-top: -22px; */
 	padding: 16px;
 	color: rgb(27, 6, 6);
 	font-weight: bold;
@@ -339,7 +358,14 @@ hr{
 	position: relative;
 	bottom: 55px;
 	left: 97px;
-	border: 1px solid black;
+
+	background-color: #dfdbdb;
+	box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+.prev-next:hover,.prev-next:focus , .prev-next:focus-visible, .prev-next:active{
+
+	background-color: #dfdbdb !important;
+
 }
 
 .image-and-text {
@@ -378,24 +404,23 @@ hr{
 /* Fading animation */
 .fadess {
 	animation-name: fadess;
-	animation-duration: 1.5s;
+	animation-duration: 2s;
 }
 
 @keyframes fadess {
 	from {
-		opacity: .4
+		opacity: 0x;
 	}
 
 	to {
-		opacity: 1
+		opacity: 1;
 	}
 }
 
-.card-body {
-	background-color: #1f1463;
-	color: white;
-	text-align: center;
+.owl-carousel .owl-item img {
+	border-radius: 8px 8px 0 0;
 }
+
 
 #about-company-home {
 	background-color: #1f1463;
@@ -439,10 +464,10 @@ hr{
 		font-size: 1.3rem;
 	}
 
-	.owl-next{
+	.owl-next {
 		right: -40px !important;
 	}
-	
+
 }
 
 
@@ -474,13 +499,13 @@ hr{
 		margin: 0 auto;
 	}
 
-	.btns-md-size{
+	.btns-md-size {
 		display: block !important;
 	}
 
 	.prvsbtn {
 		position: absolute;
-		top: 117px;
+		top: 148px;
 		left: -22px;
 
 		font-size: 24px;
@@ -491,12 +516,12 @@ hr{
 	.nxtbtn {
 		position: absolute;
 		position: absolute;
-		top: 117px;
+		top: 145px;
 
 		border-radius: 32%;
 		width: 49px;
 		font-size: 24px;
-		left: 230px;
+		left: 249px;
 	}
 
 	.data {
@@ -554,17 +579,20 @@ hr{
 		font-size: 1.8rem;
 	}
 
-	.dbb{
+	.dbb {
 		justify-content: center !important;
 	}
+
 	.btn-download {
 		padding: 8px 18px;
 		font-size: 1.2rem;
 	}
-	.data-row-lg{
+
+	.data-row-lg {
 		display: none !important;
 	}
-	.data-row-sm{
+
+	.data-row-sm {
 		display: flex !important;
 	}
 }
@@ -585,19 +613,23 @@ hr{
 		width: 30%;
 		margin: 0 auto;
 	}
-	.btns-md-size{
+
+	.btns-md-size {
 		display: none !important;
 	}
-	.btns-main-sm-size{
+
+	.btns-main-sm-size {
 		display: flex !important;
 		width: 40%;
 		margin: 0 auto;
 		border: none;
 		background-color: transparent;
 	}
-	.btns-sm-size{
+
+	.btns-sm-size {
 		display: block !important;
 	}
+
 	.prvsbtn {
 		position: inherit;
 		top: 100px;
