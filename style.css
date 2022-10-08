@@ -154,7 +154,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 .data-value {
 	color: rgb(212, 99, 118);
 	font-weight: 600;
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 }
 
 .pink-color {
@@ -287,7 +287,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 }
 
 #testimonial_area .owl-prev {
-	left: -60px;
+	left: -50px;
 	top: -30px;
 }
 
@@ -347,7 +347,7 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 	margin-bottom: 36px;
 	background: #0f0c29;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: linear-gradient(to right, #24243e, #302b63, #594ad9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 
@@ -423,9 +423,9 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
 
 	/* background-color: #dfdbdb !important; */
 	border: 1px solid darkblue;
-	background: #0f0c29 !important;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29) !important;  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #594ad9 !important;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #594ad9) !important;  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #594ad9) !important; /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
 }
